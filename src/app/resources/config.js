@@ -16,12 +16,12 @@ const protectedRoutes = {
 
 const style = {
   theme: "dark",
-  brand: "indigo",
+  brand: "custom",
   accent: "violet",
   neutral: "slate",
-  border: "conservative",
-  solid: "contrast",
-  'solid-style': "flat",
+  border: "playful",
+  solid: "color",
+  solidStyle: "flat",
   surface: "translucent",
   transition: "all",
 };
