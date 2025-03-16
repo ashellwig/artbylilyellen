@@ -10,6 +10,7 @@ import { Inter } from "next/font/google";
 import { Source_Code_Pro } from "next/font/google";
 import { Raleway } from 'next/font/google';
 import { Sora } from 'next/font/google';
+import { Metal_Mania } from 'next/font/google';
 
 import { person, home } from "@/app/resources/content";
 import { Background, Column, Flex, ToastProvider } from "@/once-ui/components";
@@ -47,8 +48,9 @@ export async function generateMetadata() {
 //   display: "swap",
 // });
 
-const primary = Raleway({
+const primary = Metal_Mania({
   variable: '--font-primary',
+  weight: "400",
   subsets: ['latin'],
   display: 'swap'
 });
@@ -61,10 +63,11 @@ type FontConfig = {
 	Replace with code for secondary and tertiary fonts
 	from https://once-ui.com/customize
 */
-const secondary = Sora({
+const secondary = Metal_Mania({
   variable: '--font-secondary',
+  weight: "400",
   subsets: ['latin'],
-  display: 'swap'
+  display: "auto"
 });
 
 const tertiary: FontConfig | undefined = undefined;
