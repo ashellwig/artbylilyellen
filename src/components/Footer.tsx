@@ -25,17 +25,14 @@ export const Footer = () => {
         vertical="center"
       >
         <Text variant="body-default-s" onBackground="neutral-strong">
-          <Text onBackground="neutral-weak">© {currentYear} /</Text>
-          <Text paddingX="4">{person.name}</Text>
+          <Text onBackground="neutral-weak">© {currentYear} / </Text>
           <Text onBackground="neutral-weak">
-            / Made with{" "}
-            <FaRegHeart style={{ color: "red" }} />{" "}
-            Love{" "}
-            <FaRegHeart style={{ color: "red" }} />{" "}
+            Made with{" "}
+            <Text style={{ color: "red" }}>
+              <FaRegHeart />
+            </Text>{" "}
             by{" "}
             <SmartLink
-              prefixIcon="heart"
-              suffixIcon="heart"
               style={{ marginLeft: "-0.125rem" }}
               href="https://linktr.ee/ashwig"
             >

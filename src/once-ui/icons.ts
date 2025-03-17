@@ -1,4 +1,4 @@
-import { IconType } from "react-icons";
+import { IconContext, IconType } from "react-icons";
 
 import {
   HiChevronUp,
@@ -34,6 +34,11 @@ import {
 } from "react-icons/pi";
 
 import { FaDiscord, FaGithub, FaInstagram, FaLinkedin, FaRegHeart, FaXTwitter } from "react-icons/fa6";
+import styled from 'styled-components'
+
+const RedHeartIcon = styled(FaRegHeart)`
+  color: red;
+`;
 
 export const iconLibrary: Record<string, IconType> = {
   chevronUp: HiChevronUp,
@@ -68,5 +73,5 @@ export const iconLibrary: Record<string, IconType> = {
   x: FaXTwitter,
   clipboard: HiClipboard,
   arrowUpRightFromSquare: HiArrowTopRightOnSquare,
-  heart: FaRegHeart,
+  heart: RedHeartIcon,
 };
