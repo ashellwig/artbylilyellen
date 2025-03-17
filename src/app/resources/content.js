@@ -49,8 +49,8 @@ const home = {
 };
 
 const about = {
-  label: "About",
-  title: "About me",
+  label: "Art by Lily Ellen",
+  title: "Art by Lily Ellen",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: false,
