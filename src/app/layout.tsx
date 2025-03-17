@@ -11,6 +11,7 @@ import { Source_Code_Pro } from "next/font/google";
 import { Raleway } from 'next/font/google';
 import { Sora } from 'next/font/google';
 import { Metal_Mania } from 'next/font/google';
+import { Nova_Cut } from "next/font/google";
 
 import { person, home } from "@/app/resources/content";
 import { Background, Column, Flex, ToastProvider } from "@/once-ui/components";
@@ -48,12 +49,19 @@ export async function generateMetadata() {
 //   display: "swap",
 // });
 
-const primary = Metal_Mania({
-  variable: '--font-primary',
+// const primary = Metal_Mania({
+//   variable: '--font-primary',
+//   weight: "400",
+//   subsets: ['latin'],
+//   display: 'swap'
+// });
+
+const primary = Nova_Cut({
+  variable: "--font-primary",
   weight: "400",
-  subsets: ['latin'],
-  display: 'swap'
-});
+  subsets: ["latin"],
+  display: "swap"
+})
 
 type FontConfig = {
   variable: string;
@@ -63,12 +71,12 @@ type FontConfig = {
 	Replace with code for secondary and tertiary fonts
 	from https://once-ui.com/customize
 */
-const secondary = Metal_Mania({
-  variable: '--font-secondary',
+const secondary = Nova_Cut({
+  variable: "--font-secondary",
   weight: "400",
-  subsets: ['latin'],
-  display: "auto"
-});
+  subsets: ["latin"],
+  display: "swap"
+})
 
 const tertiary: FontConfig | undefined = undefined;
 /*
