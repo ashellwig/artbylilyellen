@@ -31,11 +31,6 @@ const social = [
     icon: "insta",
     link: "https://instagram.com/painmelikeoneofyourfrenchgirls",
   },
-  {
-    name: "Email",
-    icon: "email",
-    link: "mailto:dallirocks@gmail.com",
-  },
 ];
 
 const home = {
@@ -202,7 +197,7 @@ const gallery = {
     {
       src: "/images/gallery/01.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "",
     },
     {
       src: "/images/gallery/02.jpg",

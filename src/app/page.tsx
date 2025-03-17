@@ -13,7 +13,8 @@ import {
 import { baseURL } from "@/app/resources";
 import TableOfContents from "@/components/about/TableOfContents";
 import styles from "@/components/about/about.module.scss";
-import { person, about, social } from "@/app/resources/content";
+import { person, about, social, gallery } from "@/app/resources/content";
+import Gallery from "./gallery/page";
 
 export async function generateMetadata() {
   const title = about.title;
@@ -117,7 +118,7 @@ export default function About() {
             <Avatar src={person.avatar} size="xl" />
             <Flex gap="8" vertical="center">
               <Icon onBackground="accent-weak" name="globe" />
-              {person.location}
+              Colorado, USA
             </Flex>
             {person.languages.length > 0 && (
               <Flex wrap gap="8">
@@ -208,7 +209,13 @@ export default function About() {
               {about.intro.description}
             </Column>
           )}
-
+          
+          {/* <> */}
+          <Column textVariant="body-default-l" fillWidth gap="m" marginBottom="xl">
+              <Gallery></Gallery>
+            </Column>
+          {/* </> */}
+          
           {about.work.display && (
             <>
               <Heading as="h2" id={about.work.title} variant="display-strong-s" marginBottom="m">
