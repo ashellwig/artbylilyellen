@@ -21,16 +21,14 @@ export const Footer = () => {
         paddingY="8"
         paddingX="16"
         gap="16"
-        horizontal="space-between"
+        horizontal="center"
         vertical="center"
       >
         <Text variant="body-default-s" onBackground="neutral-strong">
           <Text onBackground="neutral-weak">© {currentYear} / </Text>
           <Text onBackground="neutral-weak">
             Made with{" "}
-            <Text style={{ color: "red" }}>
-              <FaRegHeart />
-            </Text>{" "}
+            <FaRegHeart style={{ color: "red" }}/>{" "}
             by{" "}
             <SmartLink
               style={{ marginLeft: "-0.125rem" }}
@@ -50,23 +48,8 @@ export const Footer = () => {
             </SmartLink>
           </Text>
         </Text>
-        <Flex gap="16">
-          {social.map(
-            (item) =>
-              item.link && (
-                <IconButton
-                  key={item.name}
-                  href={item.link}
-                  icon={item.icon}
-                  tooltip={item.name}
-                  size="s"
-                  variant="ghost"
-                />
-              ),
-          )}
-        </Flex>
       </Flex>
-      <Flex height="80" show="s"></Flex>
+      <Flex height="48" show="s"></Flex>
     </Flex>
   );
 };
