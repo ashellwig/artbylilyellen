@@ -6,11 +6,7 @@ import classNames from "classnames";
 import { Footer, Header, RouteGuard } from "@/components";
 import { baseURL, effects, style } from "@/app/resources";
 
-import { Inter } from "next/font/google";
 import { Source_Code_Pro } from "next/font/google";
-import { Raleway } from 'next/font/google';
-import { Sora } from 'next/font/google';
-import { Metal_Mania } from 'next/font/google';
 import { Nova_Cut } from "next/font/google";
 
 import { person, home } from "@/app/resources/content";
@@ -22,10 +18,10 @@ export async function generateMetadata() {
     title: home.title,
     description: home.description,
     openGraph: {
-      title: `${person.firstName}'s Portfolio`,
+      title: `Artwork by Lily Ellen`,
       description: "Portfolio website showcasing Lily Ellen's Artwork.",
       url: baseURL,
-      siteName: `${person.firstName}'s Portfolio`,
+      siteName: `Art by ${person.name}`,
       locale: "en_US",
       type: "website",
     },
