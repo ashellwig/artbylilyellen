@@ -66,8 +66,15 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        {/* TODO: Create a description for the introduction. */}
-        Placeholder Description for Introduction
+        Hello friends and strangers!
+        <br />
+        I&apos;m Lily Ellen
+        <br />
+        <br />
+        Welcome to my page of blood, sweat, and tears converted into art form.
+        <br />
+        <br />
+        Prints and originals available &mdash; on hand and on demand!&nbsp;&#x2728;
       </>
     ),
   },
