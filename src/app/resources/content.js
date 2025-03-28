@@ -29,6 +29,11 @@ const social = [
     icon: "insta",
     link: "https://instagram.com/painmelikeoneofyourfrenchgirls",
   },
+  {
+    name: "Email",
+    icon: "email",
+    link: "mailto:lily@artbylilyellen.com"
+  },
 ];
 
 const home = {
