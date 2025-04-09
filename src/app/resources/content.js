@@ -112,32 +112,37 @@ const gallery = {
   description: `A photo collection by ${person.name}`,
   images: [
     {
-      src: "/images/gallery/01.jpg",
+      src: "/images/gallery/000.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/001.jpg",
       alt: "image",
       orientation: "",
     },
     {
-      src: "/images/gallery/02.jpg",
+      src: "/images/gallery/002.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/03.jpg",
+      src: "/images/gallery/003.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/04.jpg",
+      src: "/images/gallery/004.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/05.jpg",
+      src: "/images/gallery/005.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/06.jpg",
+      src: "/images/gallery/006.jpg",
       alt: "image",
       orientation: "horizontal",
     },

@@ -1,6 +1,6 @@
 {
   "name": "artbylilyellen",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": {
     "name": "Ash Hellwig",
     "email": "ahellwig.dev@gmail.com",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@floating-ui/react-dom": "^2.1.1",
+    "@formspree/react": "^3.0.0",
     "@mdx-js/loader": "^3.1.0",
     "@next/mdx": "^14.2.16",
     "@vercel/analytics": "^1.5.0",

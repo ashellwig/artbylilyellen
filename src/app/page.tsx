@@ -15,6 +15,7 @@ import TableOfContents from "@/components/about/TableOfContents";
 import styles from "@/components/about/about.module.scss";
 import { person, about, social, gallery } from "@/app/resources/content";
 import Gallery from "./gallery/page";
+// import ContactForm from "@/components/contact-form";
 
 export async function generateMetadata() {
   const title = about.title;
@@ -197,12 +198,14 @@ export default function About() {
           
           {/* <> */}
           <Column textVariant="body-default-l" fillWidth gap="m" marginBottom="xl">
-              <Gallery></Gallery>
-            </Column>
+            <Gallery></Gallery>
+          </Column>
           {/* </> */}
           
-          
-        </Column>
+          {/* <Column textVariant="body-default-l" fillWidth gap="m" marginBottom="xl">
+            <ContactForm />
+          </Column> */}
+        {/* </Column> */}
       </Flex>
     </Column>
   );
