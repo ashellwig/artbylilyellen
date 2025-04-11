@@ -205,7 +205,7 @@ export default function About() {
           {/* <Column textVariant="body-default-l" fillWidth gap="m" marginBottom="xl">
             <ContactForm />
           </Column> */}
-        {/* </Column> */}
+        </Column>
       </Flex>
     </Column>
   );
