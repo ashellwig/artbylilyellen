@@ -21,6 +21,7 @@ import {
   HiCalendarDays,
   HiClipboard,
   HiArrowRight,
+  HiOutlineChatBubbleOvalLeft,
   HiOutlineEye,
   HiOutlineEyeSlash,
 } from "react-icons/hi2";
@@ -74,4 +75,5 @@ export const iconLibrary: Record<string, IconType> = {
   clipboard: HiClipboard,
   arrowUpRightFromSquare: HiArrowTopRightOnSquare,
   heart: RedHeartIcon,
+  chatBubble: HiOutlineChatBubbleOvalLeft,
 };
