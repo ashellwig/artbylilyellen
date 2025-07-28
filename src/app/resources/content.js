@@ -107,6 +107,21 @@ const gallery = {
   description: `A photo collection by ${person.name}`,
   images: [
     {
+      src: "/images/gallery/007.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/008.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/009.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
       src: "/images/gallery/000.jpg",
       alt: "image",
       orientation: "horizontal",
@@ -138,21 +153,6 @@ const gallery = {
     },
     {
       src: "/images/gallery/006.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/007.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/008.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/009.jpg",
       alt: "image",
       orientation: "horizontal",
     },
