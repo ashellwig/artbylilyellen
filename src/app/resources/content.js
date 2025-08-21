@@ -112,12 +112,17 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/010.jpg",
+      src: "/images/gallery/012.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
       src: "/images/gallery/007.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/010.jpg",
       alt: "image",
       orientation: "horizontal",
     },
