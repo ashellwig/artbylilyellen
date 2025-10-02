@@ -107,6 +107,26 @@ const gallery = {
   description: `A photo collection by ${person.name}`,
   images: [
     {
+      src: "/images/gallery/017.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/016.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/015.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/014.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
       src: "/images/gallery/011.jpg",
       alt: "image",
       orientation: "horizontal",
